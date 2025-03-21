@@ -16,7 +16,7 @@ public class CartController {
     // Retirer un produit du panier
     public void removeFromCart(User user, Product product) {
         cartService.removeProductFromCart(user, product);
-        System.out.println("Produit retiré du panier.");
+        System.out.println("Produit retiré du panier .");
     }
 
     // Calculer le total des articles dans le panier
