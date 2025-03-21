@@ -1,0 +1,97 @@
+/* Reset de base pour éviter les différences entre navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-list, .cart-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.product, .cart-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover, .cart-item:hover {
+    transform: translateY(-5px);
+}
+
+.product img, .cart-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.product h2, .cart-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p, .cart-item p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+.product button, .cart-item button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover, .cart-item button:hover {
+    background-color: #3498db;
+}
