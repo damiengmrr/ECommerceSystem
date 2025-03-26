@@ -28,20 +28,29 @@ Installation
 
 Étapes d'installation
 
-1.Cloner le projet
+Cloner le projet
 
 https://github.com/damiengmrr/ECommerceSystem.git
 
-6.Lancer le serveur HTTPS
+Lancer le serveur HTTPS
+
 python start_server.py
 
-Utilisation
+Utilisation pour lance le serveur
 
 Une fois le serveur en marche, ouvrez un navigateur et accédez à :
 
 https://localhost:9090
 
 Connectez-vous pour commencer à utiliser DIOR-PRIME.
+
+Utilisation pour lance l'Api
+
+on tape la commande suivante dans le terminale 
+
+cd backend
+source venv/bin/activate  
+python3 app.py
 
 Auteurs
 
