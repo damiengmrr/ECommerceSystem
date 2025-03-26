@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Panier</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecart.css">
+    <link rel="icon" type="image/x-icon" href="image/DIOR.png">
 </head>
 <body>
-    <h1>Mon Panier</h1>
-    <div id="cart-items"></div>
-    <a href="index.html" class="btn">Retour aux Produits</a>
+    <header>
+        <h1>Mon Panier</h1>
+    </header>
 
-    <script src="cart.js"></script>
+    <main>
+        <div id="cart-items"></div>
+
+        <div class="cart-actions">
+            <button id="clear-cart" class="btn">Vider le Panier</button>
+            <a href="index.html" class="btn btn-secondary">Retour aux Produits</a>
+        </div>
+    </main>
+    <script src="script/cart.js"></script>
 </body>
+<footer>
+    &copy; 2025 DIOR-PRIME. Tous droits réservés.
+  </footer> 
 </html>
