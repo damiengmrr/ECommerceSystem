@@ -47,6 +47,6 @@ Auteurs
 
 [DOMBALLE Théo]
 
-[GAMARA Damien]
+[GAMARRA Damien]
 
 [LEMOING Noah]
