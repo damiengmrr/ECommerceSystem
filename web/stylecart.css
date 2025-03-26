@@ -1,0 +1,102 @@
+/* Vos styles existants */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#cart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+#product-list, #cart-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    transition: background-color 1s, transform 0.9s;
+}
+
+.btn:hover {
+    background-color: #e74c3c;
+}
+
+.cart-actions {
+    margin-top: 20px;
+}
+
+#clear-cart {
+    background-color: #2ecc71;
+}
+
+#clear-cart:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    margin-top: 650px;
+    color: white;
+}
+
+
+.remove-btn {
+    background-color: #2ecc71; /* Couleur de fond rouge */
+    color: white; /* Couleur du texte */
+    border: none; /* Retirer les bordures */
+    padding: 10px 20px; /* Espacement interne */
+    font-size: 16px; /* Taille du texte */
+    cursor: pointer; /* Changer le curseur au survol */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, transform 0.2s; /* Animation lors du survol */
+}
+
+/* Effet au survol du bouton */
+.remove-btn:hover {
+    background-color: #c0392b; /* Couleur de fond rouge plus foncé */
+    transform: scale(1.05);
+}
+
+.remove-btn:active {
+    transform: scale(0.98); 
+}
