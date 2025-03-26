@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIOR-PRIME</title>
     <link rel="stylesheet" href="style.css">
-    <title>Accueil - E-Commerce</title>
-    <link rel="icon" type="image/x-icon" href="../web/image/DIOR.png">
+    <link rel="icon" type="image/x-icon" href="image/DIOR.png">
+    
 </head>
 <body>
-    <h1>Bienvenue sur notre notre site </h1>
-    <a href="products.html" class="btn">Voir les Produits</a>
+    <h1>Bienvenue sur DIOR-PRIME</h1>
+    <div class="category-container">
+        <div class="category">
+            <img src="image/vetement.png">
+            <h2>Vêtements</h2>
+            <a href="products.html?category=vetements" class="btn">Voir les Vêtements</a>
+        </div>
+        
+        <div class="category">
+            <img src="image/chaussure.png" >
+            <h2>Chaussures</h2>
+            <a href="chaussure.html?category=chaussures" class="btn">Voir les Chaussures</a>
+        </div>
+
+        <div class="category">
+            <img src="image/parfums.png" >
+            <h2>Parfums</h2>
+            <a href="parfum.html?category=parfums" class="btn">Voir les Parfums</a>
+        </div>           
+    </div>
+    <a href="cart.html" class="btn btn-secondary">🛒Panier</a> 
+    <a href="contact.html" class="btn btn-secondary">📧Contact</a> 
+         
 </body>
+<footer>
+    &copy; 2025 DIOR-PRIME. Tous droits réservés.
+  </footer> 
 </html>
