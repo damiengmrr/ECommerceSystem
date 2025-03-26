@@ -29,7 +29,7 @@ Installation
 Étapes d'installation
 
 1.Cloner le projet
-git clone https://github.com/votre-repo/DIOR-PRIME.git
+https://github.com/damiengmrr/ECommerceSystem.git
 
 6.Lancer le serveur HTTPS
 python start_server.py
