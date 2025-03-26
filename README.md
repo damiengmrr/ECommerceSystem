@@ -49,7 +49,9 @@ Utilisation pour lance l'Api
 on tape la commande suivante dans le terminale 
 
 cd backend
+
 source venv/bin/activate  
+
 python3 app.py
 
 Auteurs
