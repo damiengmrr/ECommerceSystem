@@ -1,7 +1,7 @@
 const products = [
     { id: 1, name: "Sauvage Elixir", price: 90, image: "image/parfum/dior.png" },
     { id: 2, name: "Coffret du Parfumeur", price: 310, image: "image/parfum/coffret.png" },
-    { id: 3, name: "Eau Sauvage Extrême", price: 120, image: "image/parfum/parfum.png" },
+    { id: 3, name: "Sauvage Extrême", price: 120, image: "image/parfum/parfum.png" },
     { id: 4, name: "Higher", price: 120, image: "image/parfum/parfum2.png" },
     { id: 5, name: "Dior Homme Parfum", price: 150, image: "image/parfum/parfums1.png" },
 ];
