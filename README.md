@@ -46,7 +46,7 @@ Connectez-vous pour commencer à utiliser DIOR-PRIME.
 
 Utilisation pour lance l'Api
 
-on tape la commande suivante dans le terminale 
+On tape la commande suivante dans le terminale 
 
 cd backend
 
